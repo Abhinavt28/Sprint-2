@@ -34,16 +34,6 @@ In modern software development, maintaining code quality is as important as writ
 
 Bugs analysis is the process of **systematically identifying, categorizing, and resolving defects** in source code. In the context of static code analysis for Golang, it involves examining code without executing it to find potential bugs, vulnerabilities, and code smells.
 
-### Types of Bugs Detected:
-| Bug Type | Description | Example |
-|----------|-------------|---------|
-| **errcheck** | Unchecked error return values | `json.Unmarshal()` without error check |
-| **staticcheck** | Logic errors & deprecated usage | Unreachable code, wrong API usage |
-| **gosimple** | Code simplification issues | Redundant return statements |
-| **ineffassign** | Ineffectual assignments | Variable assigned but never used |
-| **gosec** | Security vulnerabilities | Hardcoded credentials, weak crypto |
-| **unused** | Unused code | Unused functions, variables |
-
 ---
 
 ## Why Bugs Analysis?
@@ -55,9 +45,6 @@ Bugs analysis is a critical part of the software development lifecycle for the f
 | **Early Detection** | Find bugs before they reach production — saves time & cost |
 | **Code Quality** | Enforces coding standards across the team |
 | **Security** | Identifies security vulnerabilities early in development |
-| **CI/CD Integration** | Automates quality checks in pipelines |
-| **Technical Debt** | Reduces long-term technical debt |
-| **Team Consistency** | Ensures all developers follow same standards |
 | **Cost Saving** | Fixing bugs in development is 10x cheaper than in production |
 
 ---
@@ -99,16 +86,6 @@ Bugs analysis is a critical part of the software development lifecycle for the f
 | **Automated** | No manual code review needed for common issues |
 | **Fast Feedback** | Developers get instant feedback on code quality |
 | **Trackable** | Issues are logged and trackable over time |
-
-### Advantages of golangci-lint:
-| Advantage | Description |
-|-----------|-------------|
-| **All-in-One** | 50+ linters in a single tool |
-| **Fast** | Runs all linters in parallel |
-| **Configurable** | `.golangci.yml` for custom rules per project |
-| **CI/CD Integration** | Works with GitHub Actions, Jenkins, GitLab CI |
-| **Active Community** | Regular updates and excellent documentation |
-| **Go Native** | Built specifically for Go projects |
 
 ---
 
