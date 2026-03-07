@@ -10,8 +10,8 @@
 
 # Table of Contents
 - [Introduction](#introduction)
-- [What is Dependency Scanning](#what-is-dependency-scanning)
-- [Why Dependency Scanning](#why-dependency-scanning)
+- [What is Dependency Scanning?](#what-is-dependency-scanning)
+- [Why Dependency Scanning?](#why-dependency-scanning)
 - [Workflow Diagram](#workflow-diagram)
 - [Different Tools](#different-tools)
 - [Comparison of Tools](#comparison-of-tools)
@@ -32,11 +32,11 @@ For Python-based microservices like the **Attendance API** and **Notification Wo
 
 ---
 
-## What is Dependency Scanning
+## What is Dependency Scanning?
 
 Dependency Scanning is the process of **analyzing third-party packages and libraries** used in a project to identify known security vulnerabilities. It checks dependencies against public vulnerability databases such as **PyPI Advisory Database** and **OSV (Open Source Vulnerabilities)**.
 
-### What it covers:
+### What it covers?
 
 | Category | Description |
 |----------|-------------|
@@ -55,7 +55,7 @@ Dependency Scanning is the process of **analyzing third-party packages and libra
 
 ---
 
-## Why Dependency Scanning
+## Why Dependency Scanning?
 
 | Reason | Description |
 |--------|-------------|
@@ -70,52 +70,7 @@ Dependency Scanning is the process of **analyzing third-party packages and libra
 
 ## Workflow Diagram
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 DEPENDENCY SCANNING WORKFLOW                     │
-└─────────────────────────────────────────────────────────────────┘
-
-  ┌──────────┐     ┌──────────┐     ┌───────────────┐
-  │ Developer│────▶│  Commit  │────▶│   CI/CD       │
-  │  Writes  │     │  Code    │     │   Pipeline    │
-  │   Code   │     │  to Git  │     │   Triggered   │
-  └──────────┘     └──────────┘     └───────┬───────┘
-                                            │
-                                            ▼
-                                   ┌────────────────┐
-                                   │   pip-audit    │
-                                   │   Scans        │
-                                   │  Dependencies  │
-                                   └───────┬────────┘
-                                           │
-                                           ▼
-                                   ┌────────────────┐
-                                   │  Checks CVE    │
-                                   │  Database &    │
-                                   │  OSV Database  │
-                                   └───────┬────────┘
-                                           │
-                              ┌────────────┴────────────┐
-                              │                         │
-                              ▼                         ▼
-                     ┌────────────────┐       ┌────────────────┐
-                     │ Vulnerabilities│       │  No Issues     │
-                     │    Found       │       │  Found         │
-                     └───────┬────────┘       └───────┬────────┘
-                             │                        │
-                             ▼                        ▼
-                     ┌────────────────┐       ┌────────────────┐
-                     │  FAIL - Fix    │       │  PASS - Code   │
-                     │  Dependencies  │       │  Proceeds      │
-                     └───────┬────────┘       └────────────────┘
-                             │
-                             ▼
-                     ┌────────────────┐
-                     │   Developer    │
-                     │ Updates Pkgs   │
-                     │ & Recommits    │
-                     └────────────────┘
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/478b672e-38a6-4a4c-b1ae-f52e8ca4b0f4" />
 
 ---
 
