@@ -1,4 +1,4 @@
-# Golang Static Code Analysis - Bugs Analysis
+# Golang CI Checks - Bugs Analysis
 ---
 
 # Document Information
