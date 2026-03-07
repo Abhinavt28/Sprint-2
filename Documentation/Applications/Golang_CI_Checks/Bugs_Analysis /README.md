@@ -109,12 +109,8 @@ For detailed step-by-step Proof of Concept with screenshots, refer to the POC RE
 
 ## Conclusion
 
-For the Employee API (Golang microservice), running `golangci-lint` 
-revealed 11 issues including unchecked errors, redundant code, and 
-logic bugs — all without executing the code. After evaluating
-`golangci-lint` is the best choice for Go-based 
-microservices as it is an all-in-one solution, industry standard, 
-and can be reused across all future sprints in CI/CD pipelines.
+`golangci-lint` successfully detected **11 issues** in the Employee API codebase without executing the code. The tool was easy to install, configure, and run — making it the ideal choice for Bugs Analysis in Go-based microservices.
+
 
 ---
 
