@@ -1,5 +1,4 @@
 # SonarQube – Quality Gates Documentation
-<img width="1500" height="200" alt="image" src="https://github.com/user-attachments/assets/6765636f-b6b3-44d9-9b89-ea36ff72fdad" />
 
 ---
 
@@ -82,8 +81,8 @@ Without Quality Gates, code quality validation becomes manual and inconsistent.
 
 # Workflow Diagram
 - Developer → Push Code → CI Pipeline → SonarQube Scan → Quality Gate Evaluation → Pass / Fail
+<img width="688" height="1554" alt="image" src="https://github.com/user-attachments/assets/07cce7bc-ed70-45f0-bdb7-105d61ce49ac" />
 
-<img width="402" height="908" alt="Workflow Diagram - visual selection (1)" src="https://github.com/user-attachments/assets/cc14332b-d684-41c8-9e83-cde01d3ca0c1" />
 
 ### Workflow Explanation:
 
