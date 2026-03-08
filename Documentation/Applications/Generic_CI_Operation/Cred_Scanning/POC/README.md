@@ -1,4 +1,4 @@
-# POC - Credential Scanning using Gitleaks
+# POC - Credential Scanning
 
 ---
 
