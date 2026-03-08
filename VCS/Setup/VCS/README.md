@@ -1,4 +1,4 @@
-# VCS (Version Control System) Implementation – Using GitHub
+# VCS Setup
 
 ---
 
@@ -10,8 +10,8 @@
 
 ## Table of Contents
 
-1. [What is VCS](#1-what-is-vcs)
-2. [Why VCS](#2-why-vcs)
+1. [What is VCS?](#1-what-is-vcs)
+2. [Why VCS?](#2-why-vcs)
 3. [Architecture Overview (Git + GitHub)](#3-architecture-overview-git--github)
 4. [Step-by-Step Setup VCS (GitHub)](#4-step-by-step-setup-vcs-github)
    - [Step 1 – Install Git](#step-1--install-git)
