@@ -25,17 +25,15 @@
 
 ---
 
-# 1. Introduction
+## 1. Introduction
+DAST (Dynamic Application Security Testing) is integrated into the CI pipeline 
+to automatically test running Python-based attendance and notification services 
+for security vulnerabilities at runtime — before deployment.
 
-This document provides a comprehensive overview of Dynamic Application Security Testing (DAST) implemented as part of Continuous Integration (CI) security checks for Python-based attendance and notification services. It explains the purpose, workflow, tools, comparison, advantages, best practices, and recommendations for implementing DAST in the CI pipeline.
-
-Attendance and notification services are critical backend systems that handle sensitive operational and user-related data. Ensuring these services are secure is essential to prevent vulnerabilities such as unauthorized access, injection attacks, and API exploitation.
-
-DAST enables automated runtime security testing of the application by scanning the running service and identifying vulnerabilities before deployment. Integrating DAST into the CI pipeline ensures secure application deployment, improves system reliability, and strengthens overall application security.
 
 ---
 
-# 2. What is DAST?
+## 2. What is DAST?
 
 Dynamic Application Security Testing (DAST) is a security testing method that analyzes a running application to identify vulnerabilities by simulating real-world attack scenarios.
 
@@ -54,7 +52,7 @@ DAST helps identify vulnerabilities in deployed Python applications such as atte
 
 ---
 
-# 3. Why DAST is Required?
+## 3. Why DAST is Required?
 
 | Purpose                          | Description                                | Outcome                         |
 | -------------------------------- | ------------------------------------------ | ------------------------------- |
@@ -68,7 +66,7 @@ DAST ensures Python applications are secure before production deployment.
 
 ---
 
-# 4. DAST Workflow Diagram
+## 4. DAST Workflow Diagram
 
 <img width="704" height="523" alt="image" src="https://github.com/user-attachments/assets/3ebe8ba2-f7ca-4257-b0c4-284968f23a45" />
 
@@ -76,7 +74,7 @@ This workflow ensures automated security validation of Python applications.
 
 ---
 
-# 5. DAST Tools
+## 5. DAST Tools
 
 | Tool       | Description                        | Advantages                           | Limitations                |
 | ---------- | ---------------------------------- | ------------------------------------ | -------------------------- |
@@ -89,7 +87,7 @@ These tools help identify vulnerabilities in Python applications.
 
 ---
 
-# 6. Tools Comparison
+## 6. Tools Comparison
 
 | Tool       | Open Source | CI/CD Integration | Enterprise Ready | Ease of Use |
 | ---------- | ----------- | ----------------- | ---------------- | ----------- |
@@ -100,7 +98,7 @@ These tools help identify vulnerabilities in Python applications.
 
 ---
 
-# 7. Advantages of DAST
+## 7. Advantages of DAST
 
 | Advantage                       | Description                                  |
 | ------------------------------- | -------------------------------------------- |
@@ -114,7 +112,7 @@ DAST strengthens application security.
 
 ---
 
-# 8. Best Practices
+## 8. Best Practices
 
 | Practice                        | Reason                                 |
 | ------------------------------- | -------------------------------------- |
@@ -128,7 +126,7 @@ Following best practices ensures effective DAST implementation.
 
 ---
 
-# 9. Recommendation and Conclusion
+## 9. Recommendation and Conclusion
 
 ## Recommended Tool: OWASP ZAP
 
