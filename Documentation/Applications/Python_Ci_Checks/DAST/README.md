@@ -1,8 +1,8 @@
-# Python CI Security Checks – DAST Doc 
+## Python CI Security Checks – DAST Doc 
 
 ---
 
-# Document Information
+## Document Information
 | Author | Created On | Version | Last Updated By | Reviewer L0 | Reviewer L1 | Reviewer L2 |
 |--------|------------|---------|----------------|------------|------------|------------|
 | Abhinav Tiwari | 07-03-2026 | v1.0 | Abhinav Tiwari | Nikita Joshi | Prashant | Piyush Upadhayay |
