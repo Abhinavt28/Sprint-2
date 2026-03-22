@@ -88,9 +88,7 @@ This design follows a **2-tier architecture** for the Dev environment:
 
 ## Infrastructure Diagram
 
-> _Refer to the attached draw.io diagram for visual reference._
-
-![Infra Diagram](./infra-diagram.png)
+<img width="590" height="1500" alt="image" src="https://github.com/user-attachments/assets/cbcdaf6b-7bd3-4290-997e-0a487876f953" />
 
 ---
 
